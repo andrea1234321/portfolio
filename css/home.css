@@ -2,6 +2,8 @@ html,
 body {
     width: 100%;
     height: 100%;
+    font-family: 'Gruppo', sans-serif;
+    font-weight: 900;
 }
 body{
   display: flex;
@@ -18,6 +20,9 @@ main{
 }
 .name{
   margin: 0;
+  font-family: 'Monofett', monospace;
+  font-size: 50px;
+  color:rgb(43, 155, 148);
 }
 .subtitle{
   margin-top: 0;
