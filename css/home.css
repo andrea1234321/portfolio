@@ -22,6 +22,7 @@ main{
 .subtitle{
   margin-top: 0;
   margin-bottom: 40px;
+  font-size: 18px;
 }
 .profile-pic{
   width: 300px;
@@ -42,6 +43,42 @@ main{
   justify-content: center;
   align-items: center;
 }
-a{
+a, a:visited{
   text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#about{
+  background-color: rgb(243, 129, 129);
+  border: 1px solid rgb(245, 35, 35);
+}
+#projects{
+  background-color: rgb(252, 227, 138);
+  border: 1px solid rgb(230, 182, 10);
+}
+#resume{
+  background-color: rgb(217, 242, 186);
+  border: 1px solid rgb(151, 206, 83);
+}
+#contact{
+  background-color: rgb(149, 225, 211);
+  border: 1px solid rgb(66, 171, 152);
+}
+#about:hover, #projects:hover, #resume:hover, #contact:hover{
+  cursor: pointer;
+}
+#about:hover{
+  box-shadow: 1px 1px 15px red;
+}
+#projects:hover{
+  box-shadow: 1px 1px 15px rgb(250, 217, 3);
+}
+#resume:hover{
+  box-shadow: 1px 1px 15px rgb(126, 210, 58);
+}
+#contact:hover{
+  box-shadow: 1px 1px 15px rgb(0, 225, 255);
+}
+#about:active, #projects:active, #resume:active, #contact:active{
+  box-shadow: none;
 }
