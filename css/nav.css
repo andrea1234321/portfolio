@@ -43,3 +43,24 @@ a, a:visited{
   text-decoration: none;
   color: black;
 }
+.home:hover{
+  border-bottom: 2px solid rgb(43, 155, 148);
+  padding-bottom: 5px;
+}
+.about:hover{
+  border-bottom: 2px solid rgb(243, 129, 129);
+  padding-bottom: 5px;
+}
+.projects:hover{
+  border-bottom: 2px solid rgb(252, 227, 138);
+  padding-bottom: 5px;
+
+}
+.resume:hover{
+  border-bottom: 2px solid rgb(162, 193, 125);
+  padding-bottom: 5px;
+}
+.contact:hover{
+  border-bottom: 2px solid rgb(149, 225, 211);
+  padding-bottom: 5px;
+}
