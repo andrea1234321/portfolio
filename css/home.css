@@ -1,9 +1,12 @@
 html,
 body {
-    width: 100%;
-    height: 100%;
-    font-family: 'Gruppo', sans-serif;
-    font-weight: 900;
+  width: 100%;
+  height: 100%;
+  font-family: 'Gruppo', sans-serif;
+  font-weight: 900;
+  /* background-image: url(/assets/images/background.jpeg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
 }
 body{
   display: flex;

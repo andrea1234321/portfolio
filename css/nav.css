@@ -25,6 +25,8 @@ nav{
 }
 .subheading{
   margin: 0 5px;
+  margin-top: 1px;
+  color: rgb(80, 80, 80);
 }
 ul{
   display: flex;
@@ -32,6 +34,7 @@ ul{
 ul *:not(:last-child){
   padding: 0 10px;
   border-right: 1px solid black;
+  color: rgb(80, 80, 80);
 }
 li:last-child{
   padding: 0 10px;
@@ -63,4 +66,18 @@ a, a:visited{
 .contact:hover{
   border-bottom: 2px solid rgb(149, 225, 211);
   padding-bottom: 5px;
+}
+@media (max-width: 765px) {
+  .name-header{
+    flex-direction: column;
+    align-items: self-start;
+  }
+  .subheading{
+    margin-left: 0;
+    margin-top: 1px;
+    color: rgb(80, 80, 80);
+  }
+}
+@media (max-width: 619px) {
+  /* add hamburger menu */
 }

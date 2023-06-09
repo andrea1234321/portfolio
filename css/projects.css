@@ -1,0 +1,7 @@
+.projects-header{
+  font-family: 'Monofett', monospace;
+  font-size: 50px;
+  color:rgb(229, 192, 60);
+  display: flex;
+  justify-content: center;
+}
