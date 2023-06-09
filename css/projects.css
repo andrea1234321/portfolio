@@ -4,4 +4,40 @@
   color:rgb(229, 192, 60);
   display: flex;
   justify-content: center;
+  margin-top: 0;
+  padding-top: 60px;
 }
+.projects-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.project{
+  border: 2px solid rgb(229, 192, 60);
+  width: 360px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.bamm, .levelup-site, .blackjack, .showcase{
+  width: 100%;
+}
+.levelup-logo{
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+}
+.project-name{
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.project-description{
+  padding: 0 15px;
+  margin-top: 0;
+}
+/* .text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: inherit;
+  background-color: red;
+} */

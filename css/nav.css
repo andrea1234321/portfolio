@@ -6,12 +6,15 @@ body {
     font-family: 'Gruppo', sans-serif;
     font-weight: 900;
 }
-nav{
+.navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   border-bottom: 0.5px solid rgb(201, 201, 201);
+  position: fixed;
+  z-index: 1;
+  background-color: white;
 }
 .name-header{
   display: flex;

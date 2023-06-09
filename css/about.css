@@ -6,7 +6,7 @@ main{
 .pic-container{
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 img{
   width:300px;
