@@ -8,12 +8,13 @@ body {
   background-image: url(/assets/images/background-home-full.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 body{
   display: flex;
   justify-content: center;
   vertical-align: middle;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 main{
   display: flex;
@@ -34,7 +35,7 @@ main{
   font-size: 18px;
 }
 .profile-pic{
-  width: 300px;
+  width: 250px;
   border-radius: 50%;
 }
 .links-container{
@@ -44,7 +45,6 @@ main{
 }
 .links{
   margin: 20px;
-  border: 1px solid black;
   border-radius: 50%;
   height: 100px;
   width: 100px;
@@ -97,5 +97,27 @@ a, a:visited{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 570px){
+  .name{
+    font-size: 40px;
+    color:rgb(43, 155, 148);
+  }
+  .profile-pic{
+    width: 200px;
+  }
+  .links-container{
+    justify-content: center;
+    width: 400px;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  .links{
+    border-radius: 7px;
+    height: 40px;
+    width: 100px;
+    margin-bottom: 5px;
   }
 }
