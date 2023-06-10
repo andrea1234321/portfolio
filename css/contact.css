@@ -1,3 +1,11 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url(/assets/images/background-contact-full.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 main{
   display: flex;
   flex-direction: column;
@@ -56,5 +64,10 @@ input:focus, textarea:focus{
 @media (max-width: 619px) {
   .form-container{
     width: 350px;
+  }
+  body{
+    background-image: url(/assets/images/background-contact-half.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

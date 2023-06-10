@@ -3,6 +3,10 @@ body{
   justify-content: center;
   vertical-align: middle;
   overflow: hidden;
+  background-image: url(/assets/images/background-resume-full.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 main{
   display: flex;
@@ -19,4 +23,11 @@ main{
   font-size: 50px;
   color: rgb(162, 193, 125);
   margin-bottom: 50px;
+}
+@media (max-width: 700px) {
+  body{
+    background-image: url(/assets/images/background-resume-half.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
