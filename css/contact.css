@@ -5,6 +5,7 @@ body{
   background-image: url(/assets/images/background-contact-full.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 main{
   display: flex;
@@ -13,6 +14,10 @@ main{
   justify-content: center;
   vertical-align: middle;
   padding-top: 60px;
+}
+.contact{
+  border-bottom: 2px solid rgb(149, 225, 211);
+  padding-bottom: 5px;
 }
 .contact-title{
   font-family: 'Monofett', monospace;
@@ -37,8 +42,9 @@ input[type=text], select, textarea {
   font-family: inherit;
   font-size: 16px;
 }
-
-
+textarea{
+  height: 200px;
+}
 input[type=submit] {
   background-color: rgb(126, 208, 193);
   color: white;
@@ -47,12 +53,12 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   margin: 0 auto;
+  margin-bottom: 20px;
   width: 200px;
   font-family: 'Gruppo', sans-serif;
   font-size: 16px;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   box-shadow: 1px 1px 15px rgb(87, 168, 179);
 }
@@ -65,11 +71,27 @@ input:focus, textarea:focus{
 }
 @media (max-width: 619px) {
   .form-container{
-    width: 350px;
+    width: 300px;
   }
   body{
     background-image: url(/assets/images/background-contact-half.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 7px;
+    margin-top: 3px;
+    margin-bottom: 7px; 
+    font-size: 13px;
+  }
+  textarea{
+    height: 100px;
+  }
+  input[type=submit] {
+    margin-bottom: 20px;
+    width: 100px;
+    margin-top: 10px;
+  }
+  .contact-title{
+    font-size: 35px;
   }
 }

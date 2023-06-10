@@ -16,6 +16,10 @@ main{
   vertical-align: middle;
 }
 .resume{
+  border-bottom: 2px solid rgb(162, 193, 125);
+  padding-bottom: 5px;
+}
+.resume-icon{
   width: 200px;
 }
 .resume-title{
@@ -34,7 +38,7 @@ main{
   }
 }
 @media (max-width: 550px){
-  .resume{
+  .resume-icon{
     width: 100px;
   }
   .resume-title{
