@@ -22,12 +22,28 @@ main{
   font-family: 'Monofett', monospace;
   font-size: 50px;
   color: rgb(162, 193, 125);
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+}
+.resume-description{
+  text-align: center;
+  width: 250px;
 }
 @media (max-width: 700px) {
   body{
     background-image: url(/assets/images/background-resume-half.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  }
+}
+@media (max-width: 550px){
+  .resume{
+    width: 100px;
+  }
+  .resume-title{
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .resume-description{
+    text-align: center;
+    width: 200px;
+    font-size: 18px;
   }
 }

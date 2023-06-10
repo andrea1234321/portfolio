@@ -60,7 +60,6 @@ a, a:visited{
 .projects:hover{
   border-bottom: 2px solid rgb(252, 227, 138);
   padding-bottom: 5px;
-
 }
 .resume:hover{
   border-bottom: 2px solid rgb(162, 193, 125);
