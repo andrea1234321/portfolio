@@ -14,7 +14,6 @@ body{
   display: flex;
   justify-content: center;
   vertical-align: middle;
-  /* overflow: hidden; */
 }
 main{
   display: flex;
@@ -102,7 +101,7 @@ a, a:visited{
 }
 @media (max-width: 570px){
   .name{
-    font-size: 40px;
+    font-size: 30px;
     color:rgb(43, 155, 148);
   }
   .profile-pic{

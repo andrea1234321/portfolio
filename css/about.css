@@ -8,6 +8,10 @@ body{
   background-size: cover;
   background-position: center;
 }
+.about{
+  border-bottom: 2px solid rgb(243, 129, 129);
+  padding-bottom: 5px;
+}
 main{
   display: flex;
   flex-direction: column;
@@ -48,5 +52,18 @@ img{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+  }
+}
+@media (max-width: 550px){
+  .about-me> h1{
+    font-size: 30px;
+  }
+  .about-me> p{
+    width: 260px;
+    font-size: 14px;
+  }
+  img{
+    width: 160px;
+    height: 160px;
   }
 }
