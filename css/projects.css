@@ -39,6 +39,71 @@ body{
 .bamm, .levelup-site, .blackjack, .showcase, .portfolio{
   width: 100%;
 }
+.bamm{
+  background-image: url(/assets/images/bamm.png);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.level-up{
+  background-image: url(/assets/images/levelup-site.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+.blackjack{
+  background-image: url(/assets/images/blackjack.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+.showcase{
+  background-image: url(/assets/images/showcase.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 293px;
+}
+.portfolio{
+  background-image: url(/assets/images/portfolio.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.built{
+  opacity: 0;
+  transition: opacity .4s;
+  margin: 0;
+  height: inherit;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(229, 192, 60, 0.3);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+.bamm:hover, .level-up:hover, .blackjack:hover, .showcase:hover, .portfolio:hover{
+  cursor: pointer;
+}
+.bamm:hover .built, .level-up:hover .built, .blackjack:hover .built, .showcase:hover .built, .portfolio:hover .built{
+  opacity:1;
+}
+.built-languages{
+  width: 70px;
+  margin: 10px;
+  transition: 0.4s;
+}
+.built-languages-name{
+  margin: 0 5px;
+  transition: 0.4s;
+}
 .levelup-logo{
   height: 150px;
   width: 100%;
@@ -58,6 +123,10 @@ body{
   border-radius: 7px;
   padding: 10px;
   margin: 0 5px;
+}
+.github-link:hover, .deployed-link:hover{
+  background-color: rgb(233, 208, 120);
+  border: 2px solid rgb(117, 117, 117);
 }
 .links{
   margin-bottom: 30px;
