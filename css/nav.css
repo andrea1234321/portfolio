@@ -92,6 +92,7 @@ a, a:visited{
     align-items: self-start;
     padding: 6px 10px;
     width: 300px;
+    background-color: red;
   }
   .subheading{
     margin-left: 0;
@@ -128,7 +129,7 @@ a, a:visited{
     font-size: 14px;
   }
   .name-header{
-    width: 400px;
+    width: 800px;
   }
   .subheading{
     font-size: 12px;
