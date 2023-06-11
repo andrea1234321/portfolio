@@ -6,10 +6,11 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+
 }
 main{
-  margin-top: 0;
-  padding-top: 60px;
+  margin: 0;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,30 +22,35 @@ main{
   padding-bottom: 5px;
 }
 .resume-icon{
-  width: 200px;
+  width: 80px;
 }
 .resume-title{
   font-family: 'Monofett', monospace;
   font-size: 50px;
   color: rgb(162, 193, 125);
-  margin-bottom: 20px;
+  margin: 0;
+}
+.resume-overview{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .resume-description{
-  text-align: center;
-  width: 250px;
+  margin: 20px;
+}
+/* .work, .education{
+  margin-left: 40px;
 }
 .language{
-  width: 100px;
-  height: 120px;
+  width: 60px;
   object-fit: contain;
   margin: 10px;
 }
 .languages{
-  width: 500px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-}
+  margin-left: 40px;
+} */
 @media (max-width: 700px) {
   body{
     background-image: url(/assets/images/background-resume-half.png);
@@ -52,15 +58,13 @@ main{
 }
 @media (max-width: 550px){
   .resume-icon{
-    width: 100px;
+    width: 70px;
   }
   .resume-title{
     font-size: 40px;
     margin-bottom: 10px;
   }
   .resume-description{
-    text-align: center;
-    width: 200px;
     font-size: 18px;
   }
 }
