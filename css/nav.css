@@ -127,6 +127,9 @@ a, a:visited{
   .name{
     font-size: 14px;
   }
+  .name-header{
+    width: 400px;
+  }
   .subheading{
     font-size: 12px;
   }
