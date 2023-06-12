@@ -22,11 +22,11 @@ main{
   padding-bottom: 5px;
 }
 .resume-icon{
-  width: 80px;
+  width: 180px;
 }
 .resume-title{
   font-family: 'Monofett', monospace;
-  font-size: 50px;
+  font-size: 70px;
   color: rgb(162, 193, 125);
   margin: 0;
 }
