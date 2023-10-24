@@ -44,7 +44,7 @@ main{
   flex-direction: column;
   text-align: center;
 }
-.bamm, .level-up, .blackjack, .showcase, .portfolio{
+.bamm, .healthPal, .level-up, .blackjack, .showcase, .portfolio{
   width: 100%;
   height: 60%;
 }
@@ -57,6 +57,12 @@ main{
 .bamm{
   background-image: url(/assets/images/bamm.png);
   background-size: cover;
+  background-repeat: no-repeat;
+}
+.healthPal{
+  background-image: url(/assets/images/health-pal.png);
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .level-up{
@@ -98,10 +104,10 @@ main{
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
 }
-.bamm:hover, .level-up:hover, .blackjack:hover, .showcase:hover, .portfolio:hover{
+.bamm:hover, .healthPal:hover, .level-up:hover, .blackjack:hover, .showcase:hover, .portfolio:hover{
   cursor: pointer;
 }
-.bamm:hover .built, .level-up:hover .built, .blackjack:hover .built, .showcase:hover .built, .portfolio:hover .built{
+.bamm:hover .built, .healthPal:hover .built, .level-up:hover .built, .blackjack:hover .built, .showcase:hover .built, .portfolio:hover .built{
   opacity:1;
 }
 .built-languages{

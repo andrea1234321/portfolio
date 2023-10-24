@@ -19,6 +19,7 @@ main{
   justify-content: center;
   vertical-align: middle;
   width: 100%;
+  margin-top: 60px;
 }
 .pic-container{
   display: flex;
@@ -32,6 +33,9 @@ main{
   object-fit: cover;
   border: 4px solid rgb(243, 129, 129);
   border-radius: 25px;
+}
+.codingImg{
+  object-position: center !important;
 }
 .about-me{
   display: flex;
