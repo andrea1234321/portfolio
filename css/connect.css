@@ -28,7 +28,7 @@ main{
 
 .connect-icon img{
   width: 100px;
-  padding: 50px;
+  margin: 50px;
 }
 
 @media (max-width: 619px) {
