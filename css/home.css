@@ -64,15 +64,19 @@ a, a:visited{
   background-color: rgb(252, 227, 138);
   border: 1px solid rgb(230, 182, 10);
 }
-#resume{
+/* #resume{
   background-color: rgb(217, 242, 186);
   border: 1px solid rgb(151, 206, 83);
 }
 #contact{
   background-color: rgb(149, 225, 211);
   border: 1px solid rgb(66, 171, 152);
+} */
+#connect{
+  background-color: rgb(217, 242, 186);
+  border: 1px solid rgb(151, 206, 83);
 }
-#about:hover, #projects:hover, #resume:hover, #contact:hover{
+#about:hover, #projects:hover, #connct:hover, :hover, #contact:hover{
   cursor: pointer;
 }
 #about:hover{
@@ -81,13 +85,16 @@ a, a:visited{
 #projects:hover{
   box-shadow: 1px 1px 15px rgb(250, 217, 3);
 }
-#resume:hover{
+/* #resume:hover{
   box-shadow: 1px 1px 15px rgb(126, 210, 58);
 }
 #contact:hover{
   box-shadow: 1px 1px 15px rgb(0, 225, 255);
+} */
+#connect:hover{
+  box-shadow: 1px 1px 15px rgb(126, 210, 58);
 }
-#about:active, #projects:active, #resume:active, #contact:active{
+#about:active, #projects:active, #connect:active, #resume:active, #contact:active{
   box-shadow: none;
 }
 @media (max-width: 875px) {
