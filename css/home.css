@@ -67,12 +67,12 @@ a, a:visited{
 #contact{
   background-color: rgb(149, 225, 211);
   border: 1px solid rgb(66, 171, 152);
-} */
+} 
 #connect{
   background-color: rgb(217, 242, 186);
   border: 1px solid rgb(151, 206, 83);
 }
-#about:hover, #projects:hover, #connct:hover, #contact:hover{
+#about:hover, #projects:hover, #connect:hover, #contact:hover{
   cursor: pointer;
 }
 #about:hover{
